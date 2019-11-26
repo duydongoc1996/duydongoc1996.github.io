@@ -1,0 +1,11 @@
+
+
+===
+-backend:
+	+socket => block
+	+listen any transaction (unconfirm) => make a round game
+
+===
+-frontend: 
+	+catch positon where the ball fall
+	
