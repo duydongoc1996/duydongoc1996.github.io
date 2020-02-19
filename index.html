@@ -1,43 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Welcome</title>
+    <script src="script.js"></script>
+    <style>
+    body {
+        background-color: grey;
+    }
+    #top {
+        text-align: center;
+        color: greenyellow;
+        font-size: 30pt;
+    }
+    #top img {
+        width: 100%;
+        height: auto;
+    }
+    </style>
 </head>
-
 <body>
-    <button onclick="playSound()">test</button>
-    <label><input type="checkbox" onclick="enable()" />Play sound</label>
-
-    <script>
-        const sound = new Audio()
-        let canPlay = false
-
-        function enable() {
-            canPlay = true
-
-        }
-
-        function playSound() {
-            if (!canPlay) return;
-
-            // one context per document
-            var context = new (window.AudioContext || window.webkitAudioContext)();
-            var osc = context.createOscillator(); // instantiate an oscillator
-            osc.type = 'sine'; // this is the default - also square, sawtooth, triangle
-            osc.frequency.value = 440; // Hz
-            osc.connect(context.destination); // connect it to the destination
-            osc.start(); // start the oscillator
-            osc.stop(context.currentTime + 0.1); // stop 2 seconds after the current time
-
-        }
-
-
-    </script>
-
+    <div id="top">
+        <h1>QQ hãy mạnh mõe lên ^^ </h1>
+        <img src="img1.png" alt="img" />
+    </div>
+    
+    <div id="bottom"></div>
 </body>
-
 </html>
