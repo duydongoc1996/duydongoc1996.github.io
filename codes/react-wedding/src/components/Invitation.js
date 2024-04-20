@@ -28,7 +28,7 @@ export default function Invitation() {
               </h2>
 
               <p class=" text-md mt-3 text-gray-500">
-                Vào lúc 9 giờ 00, Thứ Bảy
+                Vào lúc 11 giờ 00, Thứ Bảy
               </p>
               <h1 class=" mb-4 flex  items-center border-b border-gray-200 pb-4  text-xl leading-none text-gray-900 ">
                 <span>01-06-2024</span>
@@ -148,7 +148,7 @@ export default function Invitation() {
               </h2>
 
               <p class=" text-md mt-3 text-gray-500">
-                Vào lúc 9 giờ 00, Chủ Nhật
+                Vào lúc 11 giờ 00, Chủ Nhật
               </p>
               <h1 class=" mb-4 flex  items-center border-b border-gray-200 pb-4  text-xl leading-none text-gray-900 ">
                 <span>02-06-2024</span>

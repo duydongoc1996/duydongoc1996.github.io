@@ -1,0 +1,2 @@
+deploy:
+	cp -r ./build/* ../../

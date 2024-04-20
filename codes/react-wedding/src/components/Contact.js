@@ -10,6 +10,11 @@ import API from "../assets/data/key.json";
 
 function SubmittedDialog({ open, setOpen }) {
   const handleOpen = () => setOpen(!open);
+  const handleClose = () => {
+    setOpen(false);
+    window.location.reload();
+  };
+
   return (
     <Dialog open={open} handler={handleOpen} size="sm">
       <DialogHeader>Thành công!!</DialogHeader>
@@ -20,7 +25,7 @@ function SubmittedDialog({ open, setOpen }) {
         <Button
           variant="text"
           color="red"
-          onClick={handleOpen}
+          onClick={handleClose}
           className="mr-1"
         >
           <span>Cancel</span>
