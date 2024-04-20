@@ -1,0 +1,16 @@
+{
+  "name": "my-wedding",
+  "version": "1.0.0",
+  "description": "My wedding website",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "duydongoc1996@github.com",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "html": "^1.0.0"
+  }
+}
