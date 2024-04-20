@@ -1,0 +1,15 @@
+{
+  "short_name": "Q&D",
+  "name": "Q&D Wedding Website",
+  "icons": [
+    {
+      "src": "dq-logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
