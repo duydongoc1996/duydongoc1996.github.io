@@ -1,2 +1,2 @@
 deploy:
-	cp -r ./build/* ../../
+	npm run build && cp -r ./build/* ../../

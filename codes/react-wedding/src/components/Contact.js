@@ -181,7 +181,7 @@ export default function Contact() {
   return (
     <section id="contact" className="body-font text-gray-600">
       <div className="container mx-auto flex flex-wrap px-5 py-24">
-        <div className="pr-0 md:w-1/2 md:pr-4 lg:w-3/5 lg:pr-0 ">
+        <div className="w-full pr-0 md:w-1/2 md:pr-4 lg:w-3/5 lg:pr-0 ">
           <h2 class="title-font mb-1 text-center text-xs font-medium tracking-widest text-red-500">
             Hãy để lại lời chúc cho chúng mình nhé!
           </h2>
