@@ -33,7 +33,7 @@ export default function Header() {
         <div class="-mx-4 mb-auto mt-auto flex flex-wrap content-start sm:w-1/2 sm:pr-10 lg:w-1/3">
           <div class="mb-6 w-full px-4 sm:p-4">
             <div class="mb-10 flex w-full flex-col text-center">
-              <h2 class="title-font mb-1 text-xs font-medium tracking-widest text-red-500">
+              <h2 class="title-font mb-1 text-lg font-medium tracking-widest text-red-500">
                 Và thế là ...
               </h2>
               <h2 class="title-font text-2xl font-medium text-gray-900 sm:text-3xl">

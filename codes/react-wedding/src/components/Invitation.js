@@ -5,7 +5,7 @@ export default function Invitation() {
     <section id="invitation" class="body-font text-gray-600">
       <div class="container mx-auto px-5 py-24">
         <div class="mb-20 flex w-full flex-col text-center ">
-          <h2 class="title-font mb-1 text-xs font-medium tracking-widest text-red-500">
+          <h2 class="title-font mb-1 text-lg font-medium tracking-widest text-red-500">
             Mọi người ơi ...
           </h2>
           <h1 class="title-font text-2xl font-medium text-gray-900 sm:text-3xl">

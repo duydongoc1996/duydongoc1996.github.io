@@ -9,7 +9,7 @@ export default function Intro() {
       <div className="container mx-auto flex flex-col px-5 py-24">
         <div className="mx-auto lg:w-4/6">
           <div class="mb-20 flex w-full flex-col text-center">
-            <h2 class="title-font mb-1 text-xs font-medium tracking-widest text-red-500">
+            <h2 class="title-font mb-1 text-lg font-medium tracking-widest text-red-500">
               Chuyện là thế này ...
             </h2>
             <h1 class="title-font text-2xl font-medium text-gray-900 sm:text-3xl">
@@ -65,7 +65,7 @@ export default function Intro() {
                 nhìn thấy cuộc sống này theo tích cực hơn. Giúp anh tìm lại bản
                 thân mình sau khoảng thời gian lạc lõng giữa cuộc đời. Em là
                 người mà anh muốn dành cả cuộc đời này để yêu thương và chia sẻ
-                mọi đắng cay ngọt bùi. Cảm ơn em vì tất cả cũng với mọi điều tốt
+                mọi đắng cay ngọt bùi. Cảm ơn em vì tất cả cùng với mọi điều tốt
                 đẹp nhất trên đời.
               </p>
             </div>

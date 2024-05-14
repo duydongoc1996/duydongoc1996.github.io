@@ -51,7 +51,7 @@ export default function Album() {
 
       <div className="container mx-auto flex flex-wrap px-5 py-24">
         <div className="mb-20 flex w-full flex-col text-center ">
-          <h2 className="title-font mb-1 text-xs font-medium tracking-widest text-red-500">
+          <h2 className="title-font mb-1 text-lg font-medium tracking-widest text-red-500">
             Những khoảnh khắc đẹp nhất ...
           </h2>
           <h2 className="title-font text-2xl font-medium text-gray-900 sm:text-3xl">
