@@ -1,5 +1,7 @@
 import React from "react";
 import image1 from "../assets/images/7U8A9922.jpg";
+import image2 from "../assets/images/bong.png";
+import image3 from "../assets/images/mun2.png";
 
 export default function Intro() {
   return (
@@ -23,19 +25,8 @@ export default function Intro() {
           </div>
           <div className="mt-10 flex flex-col sm:flex-row">
             <div className="text-center sm:w-1/3 sm:py-8 sm:pr-8">
-              <div className="inline-flex h-20 w-20 items-center justify-center rounded-full bg-gray-200 text-gray-400">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  className="h-10 w-10"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                </svg>
+              <div className="inline-flex h-32 w-32 items-center justify-center overflow-hidden rounded-full bg-gray-200 text-gray-400">
+                <img className="h-32 w-32" src={image3}></img>
               </div>
               <div className="flex flex-col items-center justify-center text-center">
                 <h2 className="title-font mt-4 text-lg font-medium text-gray-900">
@@ -79,19 +70,8 @@ export default function Intro() {
               </p>
             </div>
             <div className="text-center sm:w-1/3 sm:py-8 sm:pl-8">
-              <div className="inline-flex h-20 w-20 items-center justify-center rounded-full bg-gray-200 text-gray-400">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  className="h-10 w-10"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                </svg>
+              <div className="inline-flex h-32 w-32 items-center justify-center overflow-hidden rounded-full bg-gray-200 text-gray-400">
+                <img className="h-32 w-32" src={image2}></img>
               </div>
               <div className="flex flex-col items-center justify-center text-center">
                 <h2 className="title-font mt-4 text-lg font-medium text-gray-900">
