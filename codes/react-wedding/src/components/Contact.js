@@ -118,7 +118,7 @@ function MessageForm() {
         >
           {isLoading ? "Đang gửi ..." : "Gửi"}
         </button>
-        <p className="mt-3 text-center text-xs text-gray-500">
+        <p className="text-md mt-3 text-center text-gray-500">
           Chúng mình xin trân trọng cảm ơn lời chúc của bạn! 🥰
         </p>
       </div>
